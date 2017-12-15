@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- xmlns:myattr="http://schemas.android.com/apk/res/com.example.androidcrazy"
+	中的com.example.androidcrazy是manifest中的package属性的值  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myattr="http://schemas.android.com/apk/res/com.example.androidcrazy"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	
+    <com.example.androidcrazy.view.MyImageView 
+        android:id="@+id/myImg_duration_50"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/ic_launcher"
+    	android:layout_gravity="center"
+    	myattr:duration="50"/>
+    
+    <com.example.androidcrazy.view.MyImageView 
+        android:id="@+id/myImg_duration_100"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/ic_launcher"
+    	android:layout_gravity="center"
+    	myattr:duration="100"/>
+    
+</LinearLayout>

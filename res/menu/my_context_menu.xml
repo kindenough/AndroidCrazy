@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:checkableBehavior="single" >
+
+        <!-- 定义多个菜单 -->
+        <item
+            android:id="@+id/context_menu_red"
+            android:title="红色"/>
+        <item
+            android:id="@+id/context_menu_yellow"
+            android:title="黄色"/>
+        <item
+            android:id="@+id/context_menu_blue"
+            android:title="蓝色"/>
+    </group>
+
+</menu>

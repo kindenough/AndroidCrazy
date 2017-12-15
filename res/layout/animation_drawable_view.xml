@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/img_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/animation_drawable" />
+
+    <Button
+        android:id="@+id/anim_start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="开始动画" />
+
+    <Button
+        android:id="@+id/anim_stop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="停止动画" />
+
+    <Button
+        android:id="@+id/anim_shanshui_start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="开始山水图片动画" />
+
+    <ImageView
+        android:id="@+id/anim_shanshui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/shanshui" />
+
+</LinearLayout>

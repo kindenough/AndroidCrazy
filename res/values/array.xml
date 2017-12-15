@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="books">
+	    <item>疯狂java讲义</item>
+	    <item>疯狂android讲义</item>
+	    <item>疯狂xml讲义</item>
+	</string-array>
+	
+	<string-array name="gender_name">
+	    <item>男</item>
+	    <item>女</item>
+	</string-array>
+	
+	<string-array name="gender_value">
+	    <item>1</item>
+	    <item>0</item>
+	</string-array>
+    
+    <string-array name="anims">
+        <item>左进右出</item>
+        <item>右进左出</item>
+        <item>淡入淡出</item>
+        <item>zoom入zoom出</item>
+    </string-array>
+    
+</resources>

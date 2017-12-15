@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="请在下面屏幕上绘制手势"/>
+    
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gestureView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gestureStrokeType="multiple"/>
+        
+
+</LinearLayout>

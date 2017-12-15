@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="50dp" >
+	
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:max="100"
+        style="@android:style/Widget.ProgressBar.Horizontal"/>
+    
+    <!-- 自定义样式进度条 -->
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="10dp"
+        android:max="100"
+       	style="@style/myprogressbar"/>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="10dp"
+    	android:orientation="horizontal">
+	    <Button 
+	        android:id="@+id/show"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/show"/>
+	    <Button 
+	        android:id="@+id/hidden"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/hidden"/>
+    </LinearLayout>
+   
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:icon="@drawable/u105_normal"
+        android:title="字体大小">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <!-- 定义多个菜单 -->
+                <item
+                    android:id="@+id/font_10"
+                    android:title="10号字"/>
+                <item
+                    android:id="@+id/font_12"
+                    android:title="12号字"/>
+                <item
+                    android:id="@+id/font_14"
+                    android:title="14号字"/>
+            </group>
+        </menu>
+    </item>
+    
+    <item 
+        android:id="@+id/normal_menu"
+        android:title="普通菜单"
+        android:icon="@drawable/u105_normal"/>
+    
+    <item
+        android:icon="@drawable/u105_normal"
+        android:title="字体颜色">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <!-- 定义多个菜单 -->
+                <item
+                    android:id="@+id/color_red"
+                    android:title="红色"/>
+                <item
+                    android:id="@+id/color_yellow"
+                    android:title="黄色"/>
+                <item
+                    android:id="@+id/color_blue"
+                    android:title="蓝色"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

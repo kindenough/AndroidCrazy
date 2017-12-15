@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- collapseColumns="0" TableRow第一列被隐藏 -->
+<!-- stretchColumns="1" TableRow第二列被拉伸 -->
+<!-- shrinkColumns="2" TableRow第三列被收缩 -->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:collapseColumns="0"
+    android:shrinkColumns="2"
+    android:stretchColumns="1" >
+
+    <Button
+        android:id="@+id/btn_notification"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/showNotification" />
+    
+    <Button
+        android:id="@+id/btn_del"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delNotification" />
+
+</TableLayout>

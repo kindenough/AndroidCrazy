@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- collapseColumns="0" TableRow第一列被隐藏 -->
+<!-- stretchColumns="1" TableRow第二列被拉伸 -->
+<!-- shrinkColumns="2" TableRow第三列被收缩 -->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:collapseColumns="0"
+    android:shrinkColumns="2"
+    android:stretchColumns="1" >
+
+    <Button
+        android:id="@+id/btn_onerow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_onerow" />
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn_collapse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_collapse" />
+
+        <Button
+            android:id="@+id/btn_stretch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_stretch" />
+
+        <Button
+            android:id="@+id/btn_shrink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_shrink" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_normal" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_normal" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_normal" />
+    </TableRow>
+
+</TableLayout>

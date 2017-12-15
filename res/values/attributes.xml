@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 定义两个属性 -->
+    <attr name="duration" format="integer"/>
+    
+    <!-- 一组属性 -->
+    <declare-styleable name="myImageView">
+        <attr name="duration"></attr>
+    </declare-styleable>
+</resources>

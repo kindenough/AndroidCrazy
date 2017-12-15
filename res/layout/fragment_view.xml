@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/fragment_title_view" />
+
+    <!-- 黄色背景body -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/header"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/u16_normal">
+
+        <RadioGroup
+            android:id="@+id/lyTabTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <RadioButton
+                android:id="@+id/tab_1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/u10_normal"
+                android:button="@null"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="tab1" />
+            <RadioButton
+                android:id="@+id/tab_2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/u10_normal"
+                android:button="@null"
+                android:gravity="center"
+                android:checked="true"
+                android:layout_weight="1"
+                android:text="tab2" />
+            <RadioButton
+                android:id="@+id/tab_3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/u10_normal"
+                android:button="@null"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="tab3" />
+        </RadioGroup>
+        
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/u12_normal"
+            android:layout_centerHorizontal="true"
+            android:keepScreenOn="@id/lyTabTitle"/>
+
+        <!-- fragment tab页动态加载 -->
+        <android.support.v4.view.ViewPager
+            android:id="@+id/fragment_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lyTabTitle"
+            android:flipInterval="400"
+            android:persistentDrawingCache="animation" />
+            
+    </RelativeLayout>
+
+</RelativeLayout>

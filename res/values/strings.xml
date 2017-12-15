@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidCrazy</string>
+    <string name="menu_settings">Settings</string>
+    <string name="btn_onerow">独自一行的按钮</string>
+    <string name="btn_normal">普通按钮</string>
+    <string name="btn_collapse">被隐藏的按钮</string>
+    <string name="btn_stretch">允许被拉伸的按钮</string>
+    <string name="btn_shrink">允许被收缩的按钮</string>
+    
+    <string name="btn_text_img">按下会变换背景图片的按钮</string>
+    <string name="btn_normal_img">0patch图片按钮</string>
+    <string name="btn_9patch_img">9patch图片按钮</string>
+    
+    <string name="radio_nv">女</string>
+    <string name="radio_nan">男</string>
+    
+    <string name="checkbox_red">红色</string>
+    <string name="checkbox_yellow">黄色</string>
+    <string name="checkbox_blue">蓝色</string>
+    
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    
+    <string name="autoTextStr">自动完成文本框:</string>
+    <string name="autoTextHint">（测试请输入‘疯狂’或‘a’）</string>
+    
+    <string name="show">显示标题进度条</string>
+    <string name="hidden">隐藏标题进度条</string>
+    
+    <string name="scrollText">滚动视图滚动视图滚动视图滚动视图滚动视图滚动视图滚动视图滚动视图滚动视图滚动视图</string>
+    
+    <string name="gotoSecondPage">跳转到第二个页面</string>
+    <string name="gotoPrePage">跳转到前一个页面</string>
+    
+    <string name="showNotification">通知</string>
+    <string name="delNotification">取消通知</string>
+    
+    <string name="loading">加载中...</string>
+    <string name="no_data">暂无数据</string>
+    <string name="no_image">暂无图片</string>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <!-- 按下会变换背景图片的按钮 -->
+    <Button
+        android:id="@+id/btn_img_change"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:background="@drawable/button_selector"
+        android:text="@string/btn_text_img" />
+
+    <!-- 没有使用9patch图片的按钮 -->
+    <Button
+        android:id="@+id/btn_normal_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher"
+        android:text="@string/btn_normal_img" />
+
+    <!-- 使用9patch图片的按钮 -->
+    <Button
+        android:id="@+id/btn_9patch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher_9"
+        android:text="@string/btn_9patch_img" />
+
+    <RadioGroup
+        android:id="@+id/sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_nan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_nan" />
+
+        <RadioButton
+            android:id="@+id/radio_nv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/radio_nv" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkbox_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_red" />
+
+    <CheckBox
+        android:id="@+id/checkbox_yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_yellow" />
+
+    <CheckBox
+        android:id="@+id/checkbox_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_blue" />
+
+</LinearLayout>
